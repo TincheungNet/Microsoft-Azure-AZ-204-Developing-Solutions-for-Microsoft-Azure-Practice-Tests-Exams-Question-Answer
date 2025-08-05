@@ -1062,9 +1062,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### You have a new Azure subscription. You are developing an internal website for employees to view sensitive data. The website uses Microsoft Entra ID for authentication. You need to implement multifactor authentication for the website. Which two actions should you perform?
 
 - [ ] Configure the website to use Microsoft Entra ID B2C.
-- [x] MFA Enabled by conditional access policy.
+- [ ] MFA Enabled by conditional access policy.
 - [x] In Microsoft Entra ID, create a new conditional access policy.
-- [ ] Upgrade to Microsoft Entra ID Premium.
+- [x] Upgrade to Microsoft Entra ID Premium.
 - [ ] In Microsoft Entra ID, enable application proxy.
 - [ ] In Microsoft Entra ID conditional access, enable the baseline policy.
 
@@ -2403,3 +2403,4 @@ specified personnel if the temperature is outside of those thresholds.
 - [ ] Add the following markup to line CS23: `type: Public`.
 
 **[⬆ Back to Top](#table-of-contents)**
+
