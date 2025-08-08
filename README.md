@@ -1416,8 +1416,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### You are developing an Azure App Service REST API. The API must be called by an Azure App Service web app. The API must retrieve and update user profile information stored in Microsoft Entra ID. You need to configure the API to make the updates. Which two tools should you use?
 
 - [x] Microsoft Graph API.
-- [ ] Microsoft Authentication Library (MSAL).
-- [x] Azure API Management.
+- [x] Microsoft Authentication Library (MSAL).
+- [ ] Azure API Management.
 - [ ] Microsoft Defender for Cloud.
 - [ ] Microsoft Azure Key Vault SDK.
 
@@ -2403,5 +2403,6 @@ specified personnel if the temperature is outside of those thresholds.
 - [ ] Add the following markup to line CS23: `type: Public`.
 
 **[⬆ Back to Top](#table-of-contents)**
+
 
 
