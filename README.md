@@ -1426,9 +1426,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### You develop a REST API. You implement a user delegation SAS token to communicate with Azure Blob storage. The token is compromised. You need to revoke the token. What are two possible ways to achieve this goal?
 
 - [x] Revoke the delegation key.
-- [x] Delete the stored access policy.
+- [ ] Delete the stored access policy.
 - [ ] Regenerate the account key.
-- [ ] Remove the role assignment for the security principle.
+- [x] Remove the role assignment for the security principle.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -2403,4 +2403,5 @@ specified personnel if the temperature is outside of those thresholds.
 - [ ] Add the following markup to line CS23: `type: Public`.
 
 **[⬆ Back to Top](#table-of-contents)**
+
 
