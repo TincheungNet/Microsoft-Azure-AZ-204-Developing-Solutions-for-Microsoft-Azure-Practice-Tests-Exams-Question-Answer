@@ -1931,8 +1931,8 @@ specified personnel if the temperature is outside of those thresholds.
 
 ### You are developing a mobile app that uses an Azure SQL Database named `Weyland`. The database contains a table named `Customers` that has a field named `email_address`. You want to implement dynamic data masking to hide the data in the `email_address` field. Solution: You run the follows transact-SQL statement: `ALTER TABLE [dbo].[Weyland].[Customers] ALTER COLUMN [email_address] ADD MASKED WITH (FUNCTION = 'email()')`. Does the solution meet the goal?
 
-- [x] Yes.
-- [ ] No.
+- [ ] Yes.
+- [X] No. there is a syntax error , it should be [dbo].[Customers] and not [dbo].[Weyland].[Customers]
 
 **[⬆ Back to Top](#table-of-contents)**
 
