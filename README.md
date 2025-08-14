@@ -2212,7 +2212,7 @@ specified personnel if the temperature is outside of those thresholds.
 - [ ] Box 1: Put a message on a queue. Box 2: Recurrence. Box 3: Condition. Box 4: When there are messages in a queue. Box 5: List blobs 2.
 - [ ] Box 1: Recurrence. Box 2: Condition. Box 3: When there are messages in a queue. Box 4: Tier blob. Box 5: List blobs 2.
 - [ ] Box 1: Recurrence. Box 2: Condition. Box 3: Put a message on a queue. Box 4: When there are messages in a queue. Box 5: Tier blob.
-- [x] Box 1: Recurrence. Box 2: Condition. Box 3: Put a message on a queue. Box 4: Tier blob. Box 5: List blobs 2.
+- [x] Box 1: Recurrence. Box 2: Condition. Box 3 (true): Tier blob. Box 4 (false): Put a message on a queue.  Box 5: List blobs 2.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -2403,6 +2403,7 @@ specified personnel if the temperature is outside of those thresholds.
 - [ ] Add the following markup to line CS23: `type: Public`.
 
 **[⬆ Back to Top](#table-of-contents)**
+
 
 
 
