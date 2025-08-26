@@ -882,7 +882,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [ ] Box 1: `Metadata.Add`. Box 2: `SetMetadataAsync`. Box 3: `SetPropertiesAsync`.
 - [ ] Box 1: `Metadata.Add`. Box 2: `SetMetadataAsync`. Box 3: `UploadFileStream`.
 - [ ] Box 1: `Metadata.Add`. Box 2: `FetchAttributesAsync`. Box 3: `SetPropertiesAsync`.
-- [x] Box 1: `FetchAttributesAsync`. Box 2: `Metadata.Add`. Box 3: `SetMetadataAsync`.
+- [x] Box 1: `FetchAttributesAsync`. Box 2: `Metadata.Add`. Box 3: `SetMetadataAsync`.  warning FetchAttributesAsync() is deprecated , please use BlobProperties properties = await blobClient.GetPropertiesAsync();
+
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -2403,6 +2404,7 @@ specified personnel if the temperature is outside of those thresholds.
 - [ ] Add the following markup to line CS23: `type: Public`.
 
 **[⬆ Back to Top](#table-of-contents)**
+
 
 
 
