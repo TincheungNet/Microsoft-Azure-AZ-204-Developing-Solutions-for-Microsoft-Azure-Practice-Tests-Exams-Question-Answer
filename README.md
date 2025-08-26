@@ -1055,7 +1055,7 @@ You can upgrade from GPv1 to GPv2, but you cannot switch between Premium and Sta
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### You develop a web application. You need to register the application with an active Microsoft Entra ID tenant. Which three actions should you perform in sequence?
+### You develop a web application. You need to register the application with an active Microsoft Entra ID tenant. Which three actions should you perform in sequence? deprecated because ui has changed
 
 ![Question 72](images/question72.jpg)
 
@@ -1063,6 +1063,23 @@ You can upgrade from GPv1 to GPv2, but you cannot switch between Premium and Sta
 - [ ] Box 1: In App Registrations, select New registration. Box 2: Select the Microsoft Entra ID instance (on picture still as Azure AD). Box 3: Select Manifest from the middle-tier service registration.
 - [x] Box 1: In App Registrations, select New registration. Box 2: Select the Microsoft Entra ID instance (on picture still as Azure AD). Box 3: Create a new application and provide the name, account type, and redirect URI.
 - [ ] Box 1: In Enterprise Applications, select New application. Box 2: In App Registrations, select New registration. Box 3: Select the Microsoft Entra ID instance (on picture still as Azure AD).
+
+correct answer 
+Navigate to the correct tenant (if applicable)
+If you have access to multiple tenants, use the Settings icon (gear icon in the top menu) to switch to the desired tenant via Directories + subscriptions 1 2 3.
+
+Go to App Registrations > New registration.
+
+Fill in the application registration details:
+Name: A meaningful name for your app.
+Supported account types: Choose who can use the app:
+ Single tenant (only users in your organization)
+ Multitenant (users in any Microsoft Entra tenant)
+ Multitenant + personal Microsoft accounts
+ Personal Microsoft accounts only
+Redirect URI (optional but recommended for web apps)
+
+Click Register
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -2410,6 +2427,7 @@ specified personnel if the temperature is outside of those thresholds.
 - [ ] Add the following markup to line CS23: `type: Public`.
 
 **[⬆ Back to Top](#table-of-contents)**
+
 
 
 
