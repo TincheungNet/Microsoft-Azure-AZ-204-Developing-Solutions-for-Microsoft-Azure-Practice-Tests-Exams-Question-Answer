@@ -1353,6 +1353,9 @@ Click Register
 - [ ] caching-type: `Public`. downstream-caching-type: `Expect`. vary-by-header: `Private`.
 - [ ] caching-type: `Internal`. downstream-caching-type: `External`. vary-by-header: `Authorization`.
 - [x] caching-type: `External`. downstream-caching-type: `Private`. vary-by-header: `Authorization`.
+Explanation
+catching type: External Azure Cache for Redis because Internal caching isn't available in the Consumption tier of Azure API Management. 
+downstream-caching-type :  private because of Customers must not be able to view cached data for other customers
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -2427,6 +2430,7 @@ specified personnel if the temperature is outside of those thresholds.
 - [ ] Add the following markup to line CS23: `type: Public`.
 
 **[⬆ Back to Top](#table-of-contents)**
+
 
 
 
